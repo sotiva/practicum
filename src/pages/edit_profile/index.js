@@ -16,25 +16,25 @@ export default edit_profile({
   
     //title: title('Регситрация'),
 
-   mail:'Почта',
+  // mail:'Почта',
 
-   input_mail:input("input__mail", "email", "mail", ""),
+   input_mail:input("input__mail", "email", "mail", "Почта"),
 
-   login:'Логин',
+   //login:'Логин',
 
-   input_login:input("input__login", "text", "login", ""),
+   input_login:input("input__login", "text", "login", "Логин"),
 
-   name:'Имя',
+   //name:'Имя',
 
-  input_name:input("input__name", "text", "name", ""),
+  input_name:input("input__name", "text", "name", "Имя"),
 
-  surname: 'Фамилия',
+ // surname: 'Фамилия',
 
-   input_surname:input("input__surname", "text", "surname", ""),
+   input_surname:input("input__surname", "text", "surname", "Фамилия"),
 
-   phone: 'Телефон',
+  // phone: 'Телефон',
     
-    input_phone: input("input__phone", "tel", "phone", ""),
+    input_phone: input("input__phone", "tel", "phone", "Телефон"),
 
   button:button('button', 'submit', '', 'Сохранить'),
 

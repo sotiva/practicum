@@ -5,6 +5,7 @@ import avatar from '../../modules/avatar';
 import input from '../../components/input';
 import button from '../../components/button';
 import link from '../../components/link';
+import style from './style.scss';
 
 
 export default edit_profile({

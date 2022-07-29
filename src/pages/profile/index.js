@@ -1,16 +1,26 @@
-import tpl from "./page404.hbs";
+import edit_profile from "./edit_profile.hbs";
 import header from '../../components/header';
-import input from "../../components/input";
+import avatar from '../../modules/avatar';
+//import title from '../../components/title';
+ 
+import item from './components/item';
+import link from '../../components/link';
 
 
-export default tpl({
+export default edit_profile({
 
-    //input:input("name", "text", "text", "title"),
-
-    //input_phone: input("name", "text", "text", "телефон"),
+   header: header('Изменить профиль'),
     
-    //header:header('Messenger'),
+   avatar: avatar('#', 'photo', ''),
+  
+    //title: title('Регситрация'),
 
-    title: '404',
-    messege: 'Страницы нет',
+    item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Настройки"),
+    item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Пригласить друзей"),
+    item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Редактировать"),
+
+   link_exit: link('link', 'link_input', 'Выйти'),
+
+   link_delete: link('link', 'link_input', 'Удалить аккаунт'),
+
 });

@@ -1,0 +1,35 @@
+{
+  "name": "practicum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open --port=3000",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotiva/practicum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotiva/practicum/issues"
+  },
+  "homepage": "https://github.com/sotiva/practicum#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "buffer": "^6.0.3",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.6.2",
+    "parcel-transformer-hbs": "^1.0.4",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7"
+  }
+}

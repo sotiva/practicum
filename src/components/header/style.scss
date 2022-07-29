@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 133px;
+    background-color: #FC9983;
+    border-radius: 12 12 0 0;
+}
+
+.header > h2 {
+    font-size: 18px;
+    color: #4E00FF;
+}

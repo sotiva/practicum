@@ -2,7 +2,7 @@
   "name": "practicum",
   "version": "1.0.0",
   "description": "",
-  "default": "index.html",
+   
   "scripts": {
     "start": "parcel index.html --open --port=3000",
     "dev": "parcel index.html",

@@ -2,11 +2,21 @@
   "name": "practicum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html --open --port=3000",
     "dev": "parcel index.html",
     "build": "parcel build index.html"
+  },
+  "targets": {
+    "default": {
+      "sourceMap": true,
+      "includeNodeModules": [
+        "handlebars",
+        "uuid"
+      ],
+      "context": "browser"
+    }
   },
   "repository": {
     "type": "git",

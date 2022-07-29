@@ -1,4 +1,4 @@
-import edit_profile from "./edit_profile.hbs";
+import profile from "./profile.hbs";
 import header from '../../components/header';
 import avatar from '../../modules/avatar';
 //import title from '../../components/title';
@@ -7,7 +7,7 @@ import item from './components/item';
 import link from '../../components/link';
 
 
-export default edit_profile({
+export default profile({
 
    header: header('Изменить профиль'),
     

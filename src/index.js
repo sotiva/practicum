@@ -1,4 +1,4 @@
-import autorisation from '../src/pages/autorisation';
+import edit_profile from '../src/pages/edit_profile';
 //import style from '@parcel/transformer-sass';
 
 //import change_password from '../src/pages/change_password';
@@ -6,8 +6,8 @@ import autorisation from '../src/pages/autorisation';
 const main = document.querySelector("#root");
 
 const routes = {
-    "/autorisation": autorisation,
-    '/': autorisation,
+    "/edit_profile": edit_profile,
+    '/': edit_profile,
 };
 
 

@@ -5,6 +5,7 @@ import avatar from '../../modules/avatar';
  
 import item from '../../components/item';
 import link from '../../components/link';
+import style from './style.scss';
 
 
 export default profile({

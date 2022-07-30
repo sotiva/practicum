@@ -22,7 +22,7 @@ export default registration({
 
   input_password: input("input__password", "password", "password", "Пароль"),
 
-  input_password: input("input__reapitPassword", "password", "password", "Повторите пароль"),
+  input_reapitPassword: input("input__reapitPassword", "password", "password", "Повторите пароль"),
 
   button:button('button', 'submit', '', 'Зарегестрироваться'),
 

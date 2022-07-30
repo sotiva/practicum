@@ -1562,7 +1562,7 @@
 53/home/sotiva/practicum/node_modules/nth-check/lib/esm1658983037913741896 1
 83/home/sotiva/practicum/node_modules/@parcel/transformer-json/src/JSONTransformer.js499162500000000000 0
 72/home/sotiva/practicum/node_modules/yaml/browser/dist/Schema-e94716c8.js499162500000000000 0
-33/home/sotiva/practicum/.gitignore1659095151883415860 0
+33/home/sotiva/practicum/.gitignore1659096288789112956 0
 57/home/sotiva/practicum/node_modules/@parcel/graph/LICENSE499162500000000000 0
 72/home/sotiva/practicum/node_modules/node-addon-api/napi-inl.deprecated.h499162500000000000 0
 50/home/sotiva/practicum/node_modules/is-binary-path1659001921250024064 1
@@ -4231,7 +4231,7 @@
 62/home/sotiva/practicum/node_modules/es-abstract/2019/ToInt8.js1659002689871413096 0
 85/home/sotiva/practicum/node_modules/dom-serializer/node_modules/entities/package.json1658983039525749197 0
 48/home/sotiva/practicum/node_modules/chalk/source1658983037681740850 1
-22/home/sotiva/practicum1659095151887415892 1
+22/home/sotiva/practicum1659096288801113068 1
 87/home/sotiva/practicum/node_modules/caniuse-lite/data/features/css-container-queries.js499162500000000000 0
 80/home/sotiva/practicum/node_modules/caniuse-lite/data/features/css-gencontent.js499162500000000000 0
 61/home/sotiva/practicum/node_modules/path-to-regexp/History.md1659005153559956870 0

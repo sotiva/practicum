@@ -3,7 +3,7 @@ import header from '../../components/header';
 import avatar from '../../modules/avatar';
 //import title from '../../components/title';
  
-import item from './components/item';
+import item from '../../components/item';
 import link from '../../components/link';
 
 

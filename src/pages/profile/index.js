@@ -16,8 +16,8 @@ export default profile({
     //title: title('Регситрация'),
 
     item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Настройки"),
-    item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Пригласить друзей"),
-    item_set:item('menu__item', "menu__item_image", "menu__item_titles", "Редактировать"),
+    item_invite:item('menu__item', "menu__item_image", "menu__item_titles", "Пригласить друзей"),
+    item_edit:item('menu__item', "menu__item_image", "menu__item_titles", "Редактировать"),
 
    link_exit: link('link', 'link_input', 'Выйти'),
 

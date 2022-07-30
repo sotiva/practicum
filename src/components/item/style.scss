@@ -1,0 +1,18 @@
+.className{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.menu__item_image{
+    background-color: #D9D9D9;
+    width: 59px;
+    height: 59px;
+    border-radius: 90;
+}
+
+.menu__item_titles{
+    font-size: 10px;
+}

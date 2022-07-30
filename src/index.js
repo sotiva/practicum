@@ -18,7 +18,7 @@ const routes = {
     "/registration": registration,
     "/page404": page404,
     "/page500": page500,
-    '/': registration,
+    '/': autorisation,
 };
 
 

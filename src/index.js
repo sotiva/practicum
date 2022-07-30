@@ -18,7 +18,7 @@ const routes = {
     "/registration": registration,
     "/page404": page404,
     "/page500": page500,
-    '/': autorisation,
+    '/': `<a href="/autorisation">autorisation</a>---<a href="/edit_profile">edit_profile</a>---<a href="/change_password">change_password</a>---<a href="/change_avatar">change_avatar</a>---<a href="/profile">profile</a>---<a href="/registration">registration</a>---<a href="/page404">page404</a>---<a href="/page500">page500</a>`,
 };
 
 

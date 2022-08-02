@@ -1,11 +1,7 @@
-import page500 from "./500.hbs";
-
-
+import page500 from './500.hbs';
 
 export default page500({
 
-    
-
-    title: '500',
-    messege: 'Какая-то проблема. Уже решаем',
+  title: '500',
+  messege: 'Какая-то проблема. Уже решаем',
 });

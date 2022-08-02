@@ -12084,11 +12084,9 @@ var _headerHbs = require("./header.hbs");
 var _headerHbsDefault = parcelHelpers.interopDefault(_headerHbs);
 var _styleScss = require("./style.scss");
 var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
-exports.default = (title)=>{
-    return (0, _headerHbsDefault.default)({
+exports.default = (title)=>(0, _headerHbsDefault.default)({
         title
     });
-};
 
 },{"./header.hbs":"juLvg","./style.scss":"4hpLE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"juLvg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12130,14 +12128,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _inputHbs = require("./input.hbs");
 var _inputHbsDefault = parcelHelpers.interopDefault(_inputHbs);
-exports.default = (className, type, name, value)=>{
-    return (0, _inputHbsDefault.default)({
+exports.default = (className, type, name, value)=>(0, _inputHbsDefault.default)({
         className,
         type,
         name,
         value
     });
-};
 
 },{"./input.hbs":"6eWJV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6eWJV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12221,11 +12217,9 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _titleHbs = require("./title.hbs");
 var _titleHbsDefault = parcelHelpers.interopDefault(_titleHbs);
-exports.default = (title)=>{
-    return title({
+exports.default = (title)=>title({
         title
     });
-};
 
 },{"./title.hbs":"arZ5x","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"arZ5x":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12269,14 +12263,12 @@ var _buttonHbs = require("./button.hbs");
 var _buttonHbsDefault = parcelHelpers.interopDefault(_buttonHbs);
 var _styleScss = require("./style.scss");
 var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
-exports.default = (className, type, value, title)=>{
-    return (0, _buttonHbsDefault.default)({
+exports.default = (className, type, value, title)=>(0, _buttonHbsDefault.default)({
         className,
         type,
         value,
         title
     });
-};
 
 },{"./button.hbs":"jyi3k","./style.scss":"6Xw6F","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jyi3k":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12362,13 +12354,11 @@ var _linkHbs = require("./link.hbs");
 var _linkHbsDefault = parcelHelpers.interopDefault(_linkHbs);
 var _styleScss = require("./style.scss");
 var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
-exports.default = (className, linkName, linkTitle)=>{
-    return (0, _linkHbsDefault.default)({
+exports.default = (className, linkName, linkTitle)=>(0, _linkHbsDefault.default)({
         className,
         linkName,
         linkTitle
     });
-};
 
 },{"./link.hbs":"dRYVn","./style.scss":"9aDoj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dRYVn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12442,7 +12432,7 @@ var _header = require("../../components/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _avatar = require("../../modules/avatar");
 var _avatarDefault = parcelHelpers.interopDefault(_avatar);
-//import title from '../../components/title';
+// import title from '../../components/title';
 var _input = require("../../components/input");
 var _inputDefault = parcelHelpers.interopDefault(_input);
 var _button = require("../../components/button");
@@ -12454,12 +12444,12 @@ var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
 exports.default = (0, _editProfileHbsDefault.default)({
     header: (0, _headerDefault.default)("\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0434\u0430\u043D\u043D\u044B\u0435"),
     avatar: (0, _avatarDefault.default)("#", "photo", "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0444\u043E\u0442\u043E"),
-    //title: title('Регситрация'),
+    // title: title('Регситрация'),
     // mail:'Почта',
     input_mail: (0, _inputDefault.default)("input__mail", "email", "mail", "\u041F\u043E\u0447\u0442\u0430"),
-    //login:'Логин',
+    // login:'Логин',
     input_login: (0, _inputDefault.default)("input__login", "text", "login", "\u041B\u043E\u0433\u0438\u043D"),
-    //name:'Имя',
+    // name:'Имя',
     input_name: (0, _inputDefault.default)("input__name", "text", "name", "\u0418\u043C\u044F"),
     // surname: 'Фамилия',
     input_surname: (0, _inputDefault.default)("input__surname", "text", "surname", "\u0424\u0430\u043C\u0438\u043B\u0438\u044F"),
@@ -12720,13 +12710,11 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _avatarHbs = require("./avatar.hbs");
 var _avatarHbsDefault = parcelHelpers.interopDefault(_avatarHbs);
-exports.default = (src, alt, change)=>{
-    return (0, _avatarHbsDefault.default)({
+exports.default = (src, alt, change)=>(0, _avatarHbsDefault.default)({
         src,
         alt,
         change
     });
-};
 
 },{"./avatar.hbs":"3YPr7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3YPr7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -12863,7 +12851,7 @@ var _header = require("../../components/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _avatar = require("../../modules/avatar");
 var _avatarDefault = parcelHelpers.interopDefault(_avatar);
-//import title from '../../components/title';
+// import title from '../../components/title';
 var _item = require("../../components/item");
 var _itemDefault = parcelHelpers.interopDefault(_item);
 var _link = require("../../components/link");
@@ -12873,7 +12861,7 @@ var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
 exports.default = (0, _profileHbsDefault.default)({
     header: (0, _headerDefault.default)("\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u043F\u0440\u043E\u0444\u0438\u043B\u044C"),
     avatar: (0, _avatarDefault.default)("#", "photo", ""),
-    //title: title('Регситрация'),
+    // title: title('Регситрация'),
     item_set: (0, _itemDefault.default)("menu__item", "menu__item_image", "menu__item_titles", "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"),
     item_invite: (0, _itemDefault.default)("menu__item", "menu__item_image", "menu__item_titles", "\u041F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u0442\u044C \u0434\u0440\u0443\u0437\u0435\u0439"),
     item_edit: (0, _itemDefault.default)("menu__item", "menu__item_image", "menu__item_titles", "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C"),
@@ -13021,14 +13009,12 @@ var _itemHbs = require("./item.hbs");
 var _itemHbsDefault = parcelHelpers.interopDefault(_itemHbs);
 var _styleScss = require("./style.scss");
 var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
-exports.default = (className, pic, classItem, title)=>{
-    return (0, _itemHbsDefault.default)({
+exports.default = (className, pic, classItem, title)=>(0, _itemHbsDefault.default)({
         className,
         pic,
         classItem,
         title
     });
-};
 
 },{"./item.hbs":"c1j8O","./style.scss":"hA3Pg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c1j8O":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -13102,7 +13088,7 @@ var _header = require("../../components/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _avatar = require("../../modules/avatar");
 var _avatarDefault = parcelHelpers.interopDefault(_avatar);
-//import title from '../../components/title';
+// import title from '../../components/title';
 var _input = require("../../components/input");
 var _inputDefault = parcelHelpers.interopDefault(_input);
 var _button = require("../../components/button");
@@ -13114,7 +13100,7 @@ var _styleScssDefault = parcelHelpers.interopDefault(_styleScss);
 exports.default = (0, _changePasswordHbsDefault.default)({
     header: (0, _headerDefault.default)("Messenger"),
     avatar: (0, _avatarDefault.default)("#", "photo", "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0444\u043E\u0442\u043E"),
-    //title: title('Изменить пароль'),
+    // title: title('Изменить пароль'),
     oldPassword: "\u0421\u0442\u0430\u0440\u044B\u0439 \u043F\u0430\u0440\u043E\u043B\u044C",
     input_oldPassword: (0, _inputDefault.default)("input__oldPassword", "password", "password", ""),
     newPassword: "\u041D\u043E\u0432\u044B\u0439 \u043F\u0430\u0440\u043E\u043B\u044C",
@@ -13310,14 +13296,14 @@ var _header = require("../../components/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _input = require("../../components/input");
 var _inputDefault = parcelHelpers.interopDefault(_input);
-//import title from "../../components/title";
+// import title from "../../components/title";
 var _button = require("../../components/button");
 var _buttonDefault = parcelHelpers.interopDefault(_button);
 var _link = require("../../components/link");
 var _linkDefault = parcelHelpers.interopDefault(_link);
 exports.default = (0, _registrartionHbsDefault.default)({
     header: (0, _headerDefault.default)("Messenger"),
-    //title: title('Регситрация'),
+    // title: title('Регситрация'),
     input_login: (0, _inputDefault.default)("input__login", "text", "login", ""),
     input_surname: (0, _inputDefault.default)("input__surname", "text", "surname", "\u0424\u0430\u043C\u0438\u043B\u0438\u044F"),
     input_login: (0, _inputDefault.default)("input__name", "text", "name", "\u0418\u043C\u044F"),
@@ -13499,9 +13485,9 @@ var _headerDefault = parcelHelpers.interopDefault(_header);
 var _input = require("../../components/input");
 var _inputDefault = parcelHelpers.interopDefault(_input);
 exports.default = (0, _page404HbsDefault.default)({
-    //input:input("name", "text", "text", "title"),
-    //input_phone: input("name", "text", "text", "телефон"),
-    //header:header('Messenger'),
+    // input:input("name", "text", "text", "title"),
+    // input_phone: input("name", "text", "text", "телефон"),
+    // header:header('Messenger'),
     title: "404",
     messege: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u044B \u043D\u0435\u0442"
 });

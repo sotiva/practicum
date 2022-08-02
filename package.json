@@ -2,7 +2,6 @@
   "name": "practicum",
   "version": "1.0.0",
   "description": "",
-    
   "scripts": {
     "start": "parcel index.html --open --port=3000",
     "dev": "parcel index.html",
@@ -27,7 +26,11 @@
   "homepage": "https://github.com/sotiva/practicum#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
     "buffer": "^6.0.3",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
     "os-browserify": "^0.3.0",
     "parcel": "^2.6.2",
     "parcel-transformer-hbs": "^1.0.4",

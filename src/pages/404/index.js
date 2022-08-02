@@ -1,16 +1,15 @@
-import tpl from "./page404.hbs";
+import tpl from './page404.hbs';
 import header from '../../components/header';
-import input from "../../components/input";
-
+import input from '../../components/input';
 
 export default tpl({
 
-    //input:input("name", "text", "text", "title"),
+  // input:input("name", "text", "text", "title"),
 
-    //input_phone: input("name", "text", "text", "телефон"),
-    
-    //header:header('Messenger'),
+  // input_phone: input("name", "text", "text", "телефон"),
 
-    title: '404',
-    messege: 'Страницы нет',
+  // header:header('Messenger'),
+
+  title: '404',
+  messege: 'Страницы нет',
 });

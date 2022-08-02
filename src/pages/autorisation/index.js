@@ -1,31 +1,27 @@
-import autorisation from "./autorisation.hbs";
+import autorisation from './autorisation.hbs';
 import header from '../../components/header';
-import input from "../../components/input";
-import title from "../../components/title";
-import button from "../../components/button";
-import link from "../../components/link";
+import input from '../../components/input';
+import title from '../../components/title';
+import button from '../../components/button';
+import link from '../../components/link';
 import style from './style.scss';
-
 
 export default autorisation({
 
-    header: header('Messenger'),
-    
+  header: header('Messenger'),
+
   // title: title('Вход'),
 
-    login:'Логин',
+  login: 'Логин',
 
-   input_login:input("input__login", "text", "login", ""),
+  input_login: input('input__login', 'text', 'login', ''),
 
-   password: 'Пароль',
+  password: 'Пароль',
 
-    input_password: input("input__password", "password", "password", ""),
+  input_password: input('input__password', 'password', 'password', ''),
 
-    button:button('button', 'submit', '', 'Войти'),
+  button: button('button', 'submit', '', 'Войти'),
 
-    link: link('link', 'link_registration', 'Зарегестрироваться'),
-    
-    
+  link: link('link', 'link_registration', 'Зарегестрироваться'),
 
-   
 });
